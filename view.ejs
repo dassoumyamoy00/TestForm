@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Details</title>
+    <link rel="stylesheet" href="/static/view.css">
+</head>
+<body>
+    <h2>The database details are as follows</h2>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>City</th>
+        </thead>
+        <% resultset.forEach((item)=>{ %>
+            <tr>
+                <td><%=item.name%></td>
+                <td><%=item.age%></td>
+                <td><%=item.gender%></td>
+                <td><%=item.city%></td>
+            </tr>
+        <%})%>
+    </table>
+
+    <form action="/new" method="get">
+        <button class="btn" id="newdetails">Submit a new entry</button>
+    </form>
+    
+</body>
+</html>

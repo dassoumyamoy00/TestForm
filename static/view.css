@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: lightyellow;
+}
+
+.btn{
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: black solid 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+table{
+    margin: auto;
+}
+
+table tr td{
+    max-width: 500px;
+    min-width: 100px;
+    padding: 5px 10px;
+    font-family: cursive;
+}
+
+table tr th{
+    font-family: cursive;
+    max-width: 500px;
+    min-width: 70px;
+    padding: 5px 10px;
+}

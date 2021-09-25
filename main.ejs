@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="\static\style.css">
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form action="/submit" method="post" id="myform">
+        <input name="name" type="text" placeholder="Enter your name" id="name" required>
+        <input name="age" type="number" placeholder="Enter your age" id="age" min="0" max="100" required>
+        <input name="gender" type="text" placeholder="Enter your gender" id="gender">
+        <input name="city" type="text" placeholder="Enter your city" id="city" required>
+        <button class="btn" id="submit">Submit Details</button>
+    </form>
+    <form action="/viewdetails" method="get" id="myform_viewdetails">
+        <button class="btn" id="viewdetails">View Details</button>
+    </form>
+</body>
+</html>

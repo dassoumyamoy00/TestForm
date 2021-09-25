@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.myclass1{
+    display: inline-flex;
+}
+
+.btn{
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: black solid 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}

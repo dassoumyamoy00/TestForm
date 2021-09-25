@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+input{
+    width: 40%;
+    height: 10%;
+    border-radius: 5px;
+    border: black 2px solid;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.btn{
+    margin: 20px;
+    height: 30px;
+    width: auto;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
